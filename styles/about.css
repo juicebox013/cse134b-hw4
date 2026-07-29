@@ -1,0 +1,66 @@
+body {
+    max-width: var(--measure);
+    margin-inline: auto;
+    padding: var(--space-3);
+  }
+  
+  main {
+    margin-block: var(--space-3);
+  }
+  
+  article {
+    line-height: 1.6;
+  }
+  
+  figure {
+    float: left;
+    width: 12rem;
+    min-height: 18rem;
+    margin: 0 var(--space-2) var(--space-1) 0;
+    padding: var(--space-2);
+    border: var(--border);
+    background: var(--panel);
+  }
+  
+  figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-inline: auto;
+  }
+  
+  figcaption {
+    margin-block-start: var(--space-1);
+    font-size: 0.9rem;
+  }
+  
+  .board {
+    clear: both;
+    margin-block-start: var(--space-3);
+    padding-block-start: var(--space-2);
+    border-block-start: var(--rule);
+  }
+  
+  details {
+    margin-block: var(--space-1);
+    padding: var(--space-2);
+    border: var(--border);
+    background: var(--panel);
+  }
+  
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .meetings {
+    margin-block-start: var(--space-3);
+  }
+  
+  body > footer {
+    clear: both;
+    margin-block-start: var(--space-3);
+    padding: var(--space-2);
+    border-block-start: var(--rule);
+    background: var(--panel);
+  }
