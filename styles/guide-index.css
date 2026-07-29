@@ -1,25 +1,25 @@
 body {
     padding: var(--space-3);
-  }
+}
 
-  section {
+section {
     p {
-      padding: var(--space-2);
-      border: var(--border);
-      background: var(--panel);
+        padding: var(--space-2);
+        border: var(--border);
+        background: var(--panel);
     }
 
     strong,
     em {
-      background: var(--paper);
-      outline: var(--border-width) var(--border-style) var(--accent);
+        background: var(--paper);
+        outline: var(--border-width) var(--border-style) var(--accent);
     }
-  }
+}
 
-  article {
+article {
     max-width: var(--measure);
     margin-inline: auto;
     padding: var(--space-2) var(--space-3);
     border-inline-start: var(--rule);
     background: var(--panel);
-  }
+}
