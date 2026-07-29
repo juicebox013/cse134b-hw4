@@ -1,0 +1,114 @@
+body {
+    --card-width: 32rem;
+  
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+  
+    > header {
+      padding: var(--space-2) var(--space-3);
+      border-block-end: var(--border);
+      background: var(--panel);
+    }
+  
+    > nav {
+      padding: var(--space-2) var(--space-3);
+      border-block-end: var(--border);
+      background: var(--panel);
+  
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+    }
+  
+    > main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: var(--space-3);
+    }
+  
+    > footer {
+      padding: var(--space-2) var(--space-3);
+      border-block-start: var(--border);
+      background: var(--panel);
+    }
+  }
+  
+  .join-card {
+    max-width: var(--card-width);
+    width: 100%;
+    padding: var(--space-3);
+    border: var(--border);
+    border-block-start: var(--rule);
+    background: var(--panel);
+  
+    > * + * {
+      margin-block-start: var(--space-2);
+    }
+  }
+  
+  form {
+    > * + * {
+      margin-block-start: var(--space-2);
+    }
+  
+    label {
+      display: block;
+      margin-block-end: var(--space-1);
+      font-weight: bold;
+    }
+  
+    input,
+    select,
+    button {
+      font: inherit;
+    }
+  
+    input,
+    select {
+      width: 100%;
+      padding: 0.5rem;
+      border: var(--border);
+    }
+  
+    input[type="checkbox"] {
+      width: auto;
+    }
+  
+    fieldset {
+      padding: var(--space-2);
+      border: var(--border);
+    }
+  
+    fieldset label {
+      display: inline;
+      font-weight: normal;
+    }
+  }
+  
+  button {
+    padding: 0.5rem 0.75rem;
+    border: var(--border);
+    background: var(--paper);
+    cursor: pointer;
+  }
+  
+  dialog {
+    max-width: 32rem;
+    padding: var(--space-3);
+    border: var(--border);
+    border-block-start: var(--rule);
+    background: var(--panel);
+  
+    > * + * {
+      margin-block-start: var(--space-2);
+    }
+  }
+  
+  dialog::backdrop {
+    background: rgb(0 0 0 / 0.35);
+  }
