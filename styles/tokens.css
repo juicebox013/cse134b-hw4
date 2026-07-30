@@ -1,0 +1,30 @@
+:root {
+
+    --font-stack: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --measure: 65ch;
+    --content-width: 65ch;
+  
+
+    --page-background: #fff8e7;
+    --panel: #fff3c4;
+    --paper: #ffffff;
+    --text-color: #2b2118;
+    --cheese-color: #b26a00;
+    --accent-color: #d88400;
+    --accent: #d88400;
+  
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 2rem;
+    --space-4: 3rem;
+  
+
+    --border-width: 1px;
+    --border-style: solid;
+    --border-color: #8a6a3d;
+    --border: var(--border-width) var(--border-style) var(--border-color);
+    --rule: 0.25rem solid var(--accent-color);
+  
+
+    --radius: 0.5rem;
+  }
